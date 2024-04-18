@@ -29,31 +29,27 @@ img {
   gap: 8px;
 }
 
-input {
+.input_el {
   border: 1px solid #808080;
   border-radius: 4px;
   width: 272px;
   height: 40px;
-
   padding: 16px;
 }
 
-button {
+.button_el {
   border-radius: 8px;
   border: 0;
   padding: 8px 16px;
   width: 91px;
   height: 40px;
-
   background: #4e75ff;
-
   font-weight: 500;
   color: #fff;
-
   cursor: pointer;
 }
 
-button:hover {
+.button_el:hover {
   background: #6c8cff;
 }
 
@@ -67,19 +63,17 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   gap: 24px;
 }
 
 .card {
-  list-style: none;
   width: 360px;
   border: solid 2px #808080;
   overflow: hidden;
 }
 
 .place-for-image {
-  width: 360px;
+  width: 100%;
   height: 150px;
 }
 
@@ -105,7 +99,6 @@ button:hover {
 }
 
 .bold-text {
-  font: inherit;
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33333;
@@ -113,7 +106,6 @@ button:hover {
 }
 
 .info-value {
-  font: inherit;
   font-size: 12px;
   line-height: 2;
   color: #2e2f42;
