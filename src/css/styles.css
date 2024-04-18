@@ -15,6 +15,7 @@ body {
 
 .main_form {
   margin-bottom: 20px;
+  margin-top: 20px; /* Додав відступ від верху */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,7 +67,8 @@ body {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 4px;
+  border-radius: 8px; /* Змінив радіус кутів для кращого вигляду */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Додав тінь для зображень */
 }
 
 .simple-lightbox {
