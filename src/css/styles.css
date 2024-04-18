@@ -27,9 +27,11 @@ img {
   justify-content: center;
   align-items: center;
   gap: 8px;
+  margin: 20px auto; /* Горизонтальне вирівнювання */
+  max-width: 400px; /* Максимальна ширина для контролю розміру поля і кнопки */
 }
 
-.input_el {
+input {
   border: 1px solid #808080;
   border-radius: 4px;
   width: 272px;
@@ -37,7 +39,7 @@ img {
   padding: 16px;
 }
 
-.button_el {
+button {
   border-radius: 8px;
   border: 0;
   padding: 8px 16px;
@@ -49,7 +51,7 @@ img {
   cursor: pointer;
 }
 
-.button_el:hover {
+button:hover {
   background: #6c8cff;
 }
 
@@ -63,17 +65,19 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 24px;
 }
 
 .card {
+  list-style: none;
   width: 360px;
   border: solid 2px #808080;
   overflow: hidden;
 }
 
 .place-for-image {
-  width: 100%;
+  width: 360px;
   height: 150px;
 }
 
@@ -99,6 +103,7 @@ img {
 }
 
 .bold-text {
+  font: inherit;
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33333;
@@ -106,6 +111,7 @@ img {
 }
 
 .info-value {
+  font: inherit;
   font-size: 12px;
   line-height: 2;
   color: #2e2f42;
