@@ -57,21 +57,22 @@ body {
   justify-content: center;
 }
 
-.list_gallery {
-  overflow: hidden;
-}
-
-.list_gallery .gallery-item {
+.gallery-item {
   border-radius: 8px;
+  overflow: hidden;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
-.list_gallery .gallery-item:hover {
+.gallery-item:hover {
   transform: scale(1.05);
 }
 
-.list_gallery img {
+.gallery-link {
+  display: block;
+}
+
+.gallery-image {
   width: 100%;
   height: auto;
   display: block;
