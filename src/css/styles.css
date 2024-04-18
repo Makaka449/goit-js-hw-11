@@ -15,7 +15,7 @@ body {
 
 .main_form {
   margin-bottom: 20px;
-  margin-top: 20px; /* Додав відступ від верху */
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,16 +59,23 @@ body {
 
 .list_gallery {
   overflow: hidden;
-  border-radius: 4px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.list_gallery .gallery-item {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.list_gallery .gallery-item:hover {
+  transform: scale(1.05);
 }
 
 .list_gallery img {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 8px; /* Змінив радіус кутів для кращого вигляду */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Додав тінь для зображень */
+  border-radius: 8px;
 }
 
 .simple-lightbox {
